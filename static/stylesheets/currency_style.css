@@ -1,0 +1,13 @@
+body{
+    background-color: palegreen;
+    font-family: monospace;
+}
+
+div{
+    padding: 15px;
+}
+
+input{
+    margin: 5px;
+}
+
