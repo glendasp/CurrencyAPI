@@ -18,9 +18,8 @@ app.use(express.static(path.join(__dirname, 'static')));
 app.use('/', routes);
 app.use('/about', about);
 
-
-app.listen(3010, function(){
-    console.log("Currency app listening on port 3010");
+app.listen(process.env.PORT || 3010, function() {
+    console.log("Currency app listening on port 3010 (or port assigned by host)");
 });
 
 module.exports = app;
