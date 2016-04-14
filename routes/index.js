@@ -5,7 +5,7 @@ var router = express.Router();
 var request = require('request'); // tell the program to to send a request to the API.
 //var moment = require('moment');
 
-var baseURL = 'http://api.fixer.io/latest?base=USD&symbols=GBP,BRL';
+var baseURL = 'https://api.fixer.io/latest?base=USD&symbols=GBP,BRL';
 
 
 var exchangeRateGBP = 0 ;
